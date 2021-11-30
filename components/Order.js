@@ -71,6 +71,7 @@ function Order() {
         <div className="form-control mt-2 md:col-span-2">
           <button type="submit" className="btn btn-error">Order Now</button>
         </div>
+        </div>
         </form>
       </div>
     </div>
