@@ -26,42 +26,41 @@ function Order() {
     <div className="card flex-shrink w-full max-w-sm shadow-2xl bg-base-100">
       <div className="card-body">
       <form className="mt-2 space-y-6" action="#" method="POST">
-      <div className="grid grid-cols-6 gap-6">
-        <div className="col-span-6 sm:col-span-3">
+      
         <div className="form-control">
           <label className="label" htmlFor="name">
             <span className="label-text">Name</span>
           </label> 
           <input id="name" type="text" className="input input-bordered"/>
         </div> 
-        </div>
-        <div className="col-span-6 sm:col-span-3">
+        
+        
         <div className="form-control">
           <label className="label" htmlFor="email">
             <span className="label-text">Email</span>
           </label> 
           <input id="email" type="email" className="input input-bordered"/> 
         </div> 
-        </div>
-        </div>
-        <div className="grid grid-cols-6 gap-6">
-        <div className="col-span-6 sm:col-span-3">
+       
+       
+      
+        
         <div className="form-control">
           <label className="label" htmlFor="phone">
             <span className="label-text">Phone No.</span>
           </label> 
           <input id="phone" type="tel" className="input input-bordered"/>
         </div> 
-        </div>
-        <div className="col-span-6 sm:col-span-3">
+        
+       
         <div className="form-control">
           <label className="label" htmlFor="food">
             <span className="label-text">Type your Order</span>
           </label> 
           <input id="food" type="text" className="input input-bordered"/>
         </div> 
-        </div>
-        </div>
+        
+        
         <div className="form-control">
           <label className="label" htmlFor="address">
           <span className="label-text">Address</span>
