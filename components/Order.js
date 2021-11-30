@@ -23,7 +23,7 @@ function Order() {
     <div className="lg:text-left">
     <div className="max-w-md rounded-lg container" ref={animcontainer}></div> 
     </div> 
-    <div className="card -m-8 lg:m-12 flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+    <div className="card -m-8 lg:m-12 flex-shrink-0 w-full max-w-lg shadow-2xl bg-base-100">
       <div className="card-body">
       <form className="mt-2 space-y-6" action="#" method="POST">
       <div className="grid grid-cols-1 gap-2 md:grid-cols-2">
