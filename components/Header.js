@@ -21,7 +21,7 @@ function First() {
             <h1 className="p-4 mb-5 text-5xl  font-bold">
             TASTY TREATS &#128523;
                 </h1> 
-            <button className="p-4 btn btn-outline btn-error rounded-full">ORDER NOW</button>
+            <a href="#orders" className="p-4 btn btn-outline btn-error rounded-full" role="button">ORDER NOW</a>
           </div>
         </div>
       </div>      
