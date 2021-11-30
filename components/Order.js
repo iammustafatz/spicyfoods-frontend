@@ -26,7 +26,7 @@ function Order() {
     <div className="card -m-8 lg:m-12 flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
       <div className="card-body">
       <form className="mt-2 space-y-6" action="#" method="POST">
-      
+      <div className="grid grid-cols-1 gap-2 md:grid-cols-2">
         <div className="form-control">
           <label className="label" htmlFor="name">
             <span className="label-text">Name</span>
@@ -61,14 +61,14 @@ function Order() {
         </div> 
         
         
-        <div className="form-control">
+        <div className="form-control md:col-span-2">
           <label className="label" htmlFor="address">
           <span className="label-text">Address</span>
           </label> 
          <textarea id="address" className="textarea h-24 textarea-bordered"></textarea>
         </div>
         <br/>
-        <div className="form-control mt-2">
+        <div className="form-control mt-2 md:col-span-2">
           <button type="submit" className="btn btn-error">Order Now</button>
         </div>
         </form>
