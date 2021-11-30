@@ -14,7 +14,7 @@ function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <nav className="bg-base-200 dark:bg-gray-800">
+      <nav className="bg-base-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
@@ -30,7 +30,7 @@ function Nav() {
                 {navigation.map((item) => (
                   <a key={item.name}
                   href={item.href}
-                    className=" hover:text-error dark:text-white dark:bg-gray-800 text-gray-600 px-3 py-2 rounded-md text-sm font-medium"
+                    className=" hover:text-error text-gray-600 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     {item.name}
                   </a>
@@ -100,7 +100,7 @@ function Nav() {
               {navigation.map((item) => (
                 <a key={item.name}
                 href={item.href}
-                  className="hover:text-error dark:text-white dark:bg-gray-800 hover:bg-white text-gray-800 block px-3 py-2 rounded-md font-medium"
+                  className="hover:text-error hover:bg-white text-gray-800 block px-3 py-2 rounded-md font-medium"
                 >
                   {item.name}
                 </a>
