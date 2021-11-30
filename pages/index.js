@@ -8,7 +8,7 @@ import Footer from '../components/Footer';
 
 export default function Home() {
   return (
-    <div className="bg-base-200 dark:bg-base-200">
+    <div className="bg-base-200">
       <Head>
         <title>Spicy Foods</title>
         <link rel="icon" href="/favicon.ico" />
