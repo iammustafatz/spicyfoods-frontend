@@ -25,7 +25,7 @@ const people = [
  ]
 function Reviews() {
     return ( 
-        <div id="reviews" className="dark:bg-base-200">
+        <div id="reviews">
         <p className="font-Poppins pt-4 text-center text-3xl font-bold text-gray-800">
     Reviews
     </p>    
